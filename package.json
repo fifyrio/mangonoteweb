@@ -14,6 +14,7 @@
     "@types/react": "^19.1.8",
     "@types/react-dom": "^19.1.6",
     "autoprefixer": "^10.4.21",
+    "critters": "^0.0.23",
     "eslint": "^9.30.0",
     "eslint-config-next": "^15.3.4",
     "next": "^14.0.1",
@@ -24,6 +25,7 @@
     "typescript": "^5.2.2"
   },
   "devDependencies": {
+    "@types/aos": "^3.0.7",
     "aos": "^2.3.4",
     "fslightbox-react": "^1.7.6",
     "remixicon": "^4.0.0",
