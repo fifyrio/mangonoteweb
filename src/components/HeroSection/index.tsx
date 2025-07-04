@@ -17,7 +17,7 @@ export default function HeroSection() {
           <div className="mb-8">
             <div className="inline-flex items-center justify-center mb-4">
               <img 
-                src="/images/Logo.png" 
+                src="/images/logo.png" 
                 alt="Mango Note Logo" 
                 className="w-32 h-32 md:w-40 md:h-40"
               />

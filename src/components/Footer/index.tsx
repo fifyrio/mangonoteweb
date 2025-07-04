@@ -6,7 +6,7 @@ export default function Footer() {
           <div>
             <div className="flex items-center mb-4">
               <img 
-                src="/images/Logo.png" 
+                src="/images/logo.png" 
                 alt="Mango Note Logo" 
                 className="w-12 h-12 mr-3"
               />
