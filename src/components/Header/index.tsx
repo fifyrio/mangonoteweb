@@ -11,7 +11,7 @@ export default function Header() {
               alt="Mango Note Logo" 
               className="w-10 h-10 mr-3"
             />
-            <span className="text-xl font-bold text-gray-900">Mango AI Note</span>
+            <span className="hidden sm:block text-xl font-bold text-gray-900">Mango AI Note</span>
           </Link>
           
           <div className="flex items-center space-x-6">
