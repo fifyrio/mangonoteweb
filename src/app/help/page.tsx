@@ -256,7 +256,7 @@ export default function HelpPage() {
                 <h3 className="text-lg font-semibold mb-2">Audio not recording properly</h3>
                 <p className="text-gray-600 mb-2">Check your device's microphone permissions and ensure you're in a quiet environment.</p>
                 <div className="text-sm text-gray-500">
-                  <strong>Solution:</strong> Go to Settings > Privacy & Security > Microphone and enable MangoNote.
+                  <strong>Solution:</strong> Go to Settings &gt; Privacy &amp; Security &gt; Microphone and enable MangoNote.
                 </div>
               </div>
 
