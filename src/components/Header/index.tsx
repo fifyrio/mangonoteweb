@@ -33,6 +33,12 @@ export default function Header() {
             >
               FAQ
             </Link>
+            <Link 
+              href="/contact" 
+              className="text-gray-600 hover:text-mango-600 transition-colors"
+            >
+              Contact
+            </Link>
           </div>
         </div>
       </nav>
