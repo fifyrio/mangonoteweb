@@ -5,6 +5,9 @@ import Footer from '@/components/Footer'
 export const metadata: Metadata = {
   title: 'Terms & Conditions - Mango AI Note',
   description: 'Terms and conditions for Mango AI Note application.',
+  alternates: {
+    canonical: '/terms',
+  },
 }
 
 export default function TermsPage() {
