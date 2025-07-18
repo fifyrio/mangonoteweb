@@ -25,10 +25,10 @@ export default function HeroSection() {
           </div>
 
           {/* Headline */}
-          <h2 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6 leading-tight">
+          <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6 leading-tight">
             AI-Powered Note Taking{' '}
             <span className="text-mango-600">Made Simple</span>
-          </h2>
+          </h1>
 
           {/* Subheadline */}
           <p className="text-xl md:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto">
