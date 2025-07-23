@@ -55,6 +55,22 @@ export default function HeroSection() {
             </div>
           </div>
 
+          {/* Demo Video */}
+          <div className="flex justify-center mb-8">
+            <div className="w-48 md:w-56">
+              <div className="relative rounded-2xl overflow-hidden shadow-2xl bg-black">
+                <iframe
+                  src="https://www.youtube.com/embed/7mf0HqH4PAQ"
+                  className="w-full aspect-[9/16]"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                  title="Mango Note Demo"
+                ></iframe>
+              </div>
+              <p className="text-xs text-gray-500 mt-2 text-center">See it in action</p>
+            </div>
+          </div>
+
           {/* CTA Button */}
           <div className="flex justify-center mb-12">
             <button 
