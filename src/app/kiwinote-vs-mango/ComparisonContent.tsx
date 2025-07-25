@@ -2,6 +2,8 @@
 
 import { useEffect } from 'react'
 import Link from 'next/link'
+import Header from '@/components/Header'
+import Footer from '@/components/Footer'
 
 export default function ComparisonContent() {
   useEffect(() => {
@@ -54,8 +56,10 @@ export default function ComparisonContent() {
 
   return (
     <div className="min-h-screen bg-gray-50">
+      <Header />
+      
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-mango-50 to-orange-50 py-16">
+      <section className="bg-gradient-to-br from-mango-50 to-orange-50 py-16 pt-20">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
@@ -399,6 +403,8 @@ export default function ComparisonContent() {
           </div>
         </div>
       </section>
+
+      <Footer />
     </div>
   )
 }
