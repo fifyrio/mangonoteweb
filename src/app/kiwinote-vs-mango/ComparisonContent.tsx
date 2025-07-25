@@ -7,6 +7,8 @@ import Footer from '@/components/Footer'
 
 export default function ComparisonContent() {
   useEffect(() => {
+    if (typeof window === 'undefined') return
+
     const script = document.createElement('script')
     script.type = 'application/ld+json'
     script.textContent = JSON.stringify({
@@ -47,10 +49,17 @@ export default function ComparisonContent() {
         }
       ]
     })
+    
     document.head.appendChild(script)
 
     return () => {
-      document.head.removeChild(script)
+      try {
+        if (document.head.contains(script)) {
+          document.head.removeChild(script)
+        }
+      } catch (error) {
+        console.warn('Failed to remove schema script:', error)
+      }
     }
   }, [])
 
