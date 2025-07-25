@@ -26,13 +26,13 @@ export default function HeroSection() {
 
           {/* Headline */}
           <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6 leading-tight">
-            AI-Powered Note Taking{' '}
-            <span className="text-mango-600">Made Simple</span>
+            Lightweight AI learning assistant for{' '}
+            <span className="text-mango-600">students & creators</span>
           </h1>
 
           {/* Subheadline */}
           <p className="text-xl md:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto">
-            The most lightweight, efficient, and creator-friendly AI learning assistant — built for students and content creators alike.
+            Transform your iPhone into the ultimate AI note-taking companion. Convert audio, PDFs, and more into organized notes, mind maps, and flashcards instantly.
           </p>
 
           {/* Value proposition */}

@@ -31,7 +31,7 @@ export default function Footer() {
           </div>
           
           <div>
-            <h4 className="text-lg font-semibold mb-4">Product</h4>
+            <div className="text-lg font-semibold mb-4">Product</div>
             <ul className="space-y-2">
               <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Features</a></li>
               <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Pricing</a></li>
@@ -41,7 +41,7 @@ export default function Footer() {
           </div>
           
           <div>
-            <h4 className="text-lg font-semibold mb-4">Support</h4>
+            <div className="text-lg font-semibold mb-4">Support</div>
             <ul className="space-y-2">
               <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Help Center</a></li>
               <li><a href="/contact" className="text-gray-400 hover:text-white transition-colors">Contact Us</a></li>
@@ -51,7 +51,7 @@ export default function Footer() {
           </div>
           
           <div>
-            <h4 className="text-lg font-semibold mb-4">Legal</h4>
+            <div className="text-lg font-semibold mb-4">Legal</div>
             <ul className="space-y-2">
               <li><a href="/privacy" className="text-gray-400 hover:text-white transition-colors">Privacy Policy</a></li>
               <li><a href="/terms" className="text-gray-400 hover:text-white transition-colors">Terms of Service</a></li>

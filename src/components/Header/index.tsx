@@ -14,30 +14,13 @@ export default function Header() {
             <span className="hidden sm:block text-xl font-bold text-gray-900">Mango AI Note</span>
           </Link>
           
-          <div className="flex items-center space-x-6">
-            <Link 
-              href="/#features" 
-              className="text-gray-600 hover:text-mango-600 transition-colors"
+          <div className="flex items-center">
+            <Link
+              href="https://apps.apple.com/us/app/ai-note-taker-mangonote/id6740802816"
+              target="_blank"
+              className="bg-mango-600 hover:bg-mango-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition-colors"
             >
-              Features
-            </Link>
-            <Link 
-              href="/#pricing" 
-              className="text-gray-600 hover:text-mango-600 transition-colors"
-            >
-              Pricing
-            </Link>
-            <Link 
-              href="/#faq" 
-              className="text-gray-600 hover:text-mango-600 transition-colors"
-            >
-              FAQ
-            </Link>
-            <Link 
-              href="/contact" 
-              className="text-gray-600 hover:text-mango-600 transition-colors"
-            >
-              Contact
+              Try for free
             </Link>
           </div>
         </div>
