@@ -36,7 +36,7 @@ export default function Footer() {
               <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Features</a></li>
               <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Pricing</a></li>
               <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Mobile App</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">API</a></li>
+              <li><a href="/kiwinote-vs-mango" className="text-gray-400 hover:text-white transition-colors">vs Kiwinote</a></li>
             </ul>
           </div>
           

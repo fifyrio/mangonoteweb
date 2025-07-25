@@ -32,7 +32,7 @@ export default function HeroSection() {
 
           {/* Subheadline */}
           <p className="text-xl md:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto">
-            Transform your iPhone into the ultimate AI note-taking companion. Convert audio, PDFs, and more into organized notes, mind maps, and flashcards instantly.
+            The most lightweight, efficient, and creator-friendly AI learning assistant — built for students and content creators alike.
           </p>
 
           {/* Value proposition */}
