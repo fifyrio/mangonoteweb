@@ -10,6 +10,7 @@ import SocialProof from '@/components/SocialProof'
 import Pricing from '@/components/Pricing'
 import FAQ from '@/components/FAQ'
 import Footer from '@/components/Footer'
+import { QRCodeWidget } from '@/components/QRCodeModal'
 
 export default function Home() {
   useEffect(() => {
@@ -30,6 +31,7 @@ export default function Home() {
       <Pricing />
       <FAQ />
       <Footer />
+      <QRCodeWidget />
     </main>
   )
 }

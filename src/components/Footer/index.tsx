@@ -35,7 +35,6 @@ export default function Footer() {
             <ul className="space-y-2">
               <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Features</a></li>
               <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Pricing</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Mobile App</a></li>
               <li><a href="/kiwinote-vs-mango" className="text-gray-400 hover:text-white transition-colors">vs Kiwinote</a></li>
             </ul>
           </div>
@@ -45,8 +44,6 @@ export default function Footer() {
             <ul className="space-y-2">
               <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Help Center</a></li>
               <li><a href="/contact" className="text-gray-400 hover:text-white transition-colors">Contact Us</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">System Status</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Community</a></li>
             </ul>
           </div>
           
@@ -55,8 +52,6 @@ export default function Footer() {
             <ul className="space-y-2">
               <li><a href="/privacy" className="text-gray-400 hover:text-white transition-colors">Privacy Policy</a></li>
               <li><a href="/terms" className="text-gray-400 hover:text-white transition-colors">Terms of Service</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Cookie Policy</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">GDPR</a></li>
             </ul>
           </div>
         </div>
