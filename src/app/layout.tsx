@@ -4,6 +4,7 @@ import Script from 'next/script'
 import './globals.css'
 import { GA_TRACKING_ID } from '@/lib/gtag'
 import { GTM_ID } from '@/lib/gtm'
+import AuthProvider from '@/components/SessionProvider'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -89,7 +90,9 @@ export default function RootLayout({
             />
           </>
         )}
-        {children}
+        <AuthProvider>
+          {children}
+        </AuthProvider>
       </body>
     </html>
   )

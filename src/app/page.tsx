@@ -2,6 +2,7 @@
 
 import { useEffect } from 'react'
 import AOS from 'aos'
+import Header from '@/components/Header'
 import ScrollHeader from '@/components/ScrollHeader'
 import HeroSection from '@/components/HeroSection'
 import Features from '@/components/Features'
@@ -23,6 +24,7 @@ export default function Home() {
 
   return (
     <main className="min-h-screen">
+      <Header />
       <ScrollHeader />
       <HeroSection />
       <Features />
