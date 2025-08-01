@@ -31,9 +31,17 @@ export async function middleware(request: NextRequest) {
     data: { user },
   } = await supabase.auth.getUser()
 
+  // Redirect to sign-in if trying to access protected routes without auth
   if (request.nextUrl.pathname.startsWith('/dashboard') && !user) {
     const url = request.nextUrl.clone()
     url.pathname = '/sign-in'
+    return NextResponse.redirect(url)
+  }
+
+  // If user is already logged in and tries to access sign-in page, redirect to home
+  if (request.nextUrl.pathname === '/sign-in' && user) {
+    const url = request.nextUrl.clone()
+    url.pathname = '/'
     return NextResponse.redirect(url)
   }
 
@@ -42,6 +50,7 @@ export async function middleware(request: NextRequest) {
 
 export const config = {
   matcher: [
+    // Match all paths except static files, images, and API routes (but include auth API routes)
     '/((?!_next/static|_next/image|favicon.ico|.*\\.(?:svg|png|jpg|jpeg|gif|webp)$).*)',
   ],
 }

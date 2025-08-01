@@ -16,16 +16,17 @@ export default function SignInContent() {
       const { data, error } = await supabase.auth.signInWithOAuth({
         provider: 'google',
         options: {
-          redirectTo: `${window.location.origin}/auth/callback`
+          redirectTo: `${window.location.origin}/auth/callback?next=/`
         }
       });
       
       if (error) {
         console.error('Google sign in error:', error);
+        setIsLoading(false);
       }
+      // Note: Don't set loading to false here on success, as the page will redirect
     } catch (error) {
       console.error('Google sign in error:', error);
-    } finally {
       setIsLoading(false);
     }
   };
