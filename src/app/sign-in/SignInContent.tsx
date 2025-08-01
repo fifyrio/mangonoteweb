@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import { createClient } from '@/lib/supabase-browser';
+import { getOAuthCallbackUrl } from '@/lib/site-url';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 
@@ -16,7 +17,7 @@ export default function SignInContent() {
       const { data, error } = await supabase.auth.signInWithOAuth({
         provider: 'google',
         options: {
-          redirectTo: `${window.location.origin}/auth/callback?next=/`
+          redirectTo: getOAuthCallbackUrl('/')
         }
       });
       
