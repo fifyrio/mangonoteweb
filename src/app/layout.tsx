@@ -5,6 +5,7 @@ import './globals.css'
 import { GA_TRACKING_ID } from '@/lib/gtag'
 import { GTM_ID } from '@/lib/gtm'
 import AuthProvider from '@/components/SessionProvider'
+import { Analytics } from '@vercel/analytics/next'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -93,6 +94,7 @@ export default function RootLayout({
         <AuthProvider>
           {children}
         </AuthProvider>
+        <Analytics />
       </body>
     </html>
   )
